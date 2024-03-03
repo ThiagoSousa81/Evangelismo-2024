@@ -1,6 +1,6 @@
 ## Coletânea Evangelismo 2024
 ### Para instalar siga os seguintes passos
-1. Baixe este [arquivo]()
+1. Baixe estes [arquivos](https://github.com/ThiagoSousa81/Evangelismo-2024/tree/master/publish)
 2. Extraia seu conteúdo
 3. Coloque o arquivo <code>musics.xml</code> no local <code>C:\Program Files\Evangelismo Pra ser Feliz 2024</code>
 4. Abra o arquivo <code>setup.exe</code> no modo de Administrador
