@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Projeto Evangelismo 2024.exe" version="1.0.0.0" publicKeyToken="52b53ea2acda890d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Projeto Evangelismo 2024" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Projeto Evangelismo 2024.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>C7rtEVTO2nGGHc9syAsN2ZPZhrgONBWtvOwPm6fzmJw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wqrw2CB14o543JOYro8pmbzEliU9Xl9xgE8FbViU9TU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Projeto Evangelismo 2024.exe" size="481800">
+      <assemblyIdentity name="Projeto Evangelismo 2024" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>apUe6DoXlDat70eW9FLeXwpi2MObv/cQXm0auKega/o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Projeto Evangelismo 2024.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-8JLA6R2\Thiago Sousa" issuerKeyHash="c9dfe32f75f2ecbcdd594646570f79a2b855e7a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E0FRG4vJ7WBv3MWKOPnXATcr7WCnd/GhBW90ARIsDMU=</DigestValue></Reference></SignedInfo><SignatureValue>IEyaJOA5MBoXO+CUcHiHVoIkRfypQ3hTnbYBeaZ4Jmq/wNfG/xAdasVKthNJi59w7c2lbpzjAL2eyQjQyyiGYS3IcyT8GYueHVJG06mS71wU0qbZgOlO/ykAcUqRe9RmTWYgymhQcwWs317ydbnqS1mdGuC6oZaU9jryh5hLwRY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>05px13lyoG5Afv7BCEEimxeJKTljxjC2wnPJWU0PFHnjTNV74YmpNGCyOGPknEDY1sPkultDbG4luXGV805W5t5vnL07qKfYofVzc0KZYUofTgRmLxwroT9HFrp4+zhJp4XWVBR0MqIRENVoMY+CSK5fmM0f4qjg0u+UKBDAPLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c50c2c1201746f05a1f177a760ed2b3701d7f9388ac5dc6f60edc98b1b514113" Description="" Url=""><as:assemblyIdentity name="Projeto Evangelismo 2024.exe" version="1.0.0.0" publicKeyToken="52b53ea2acda890d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-8JLA6R2\Thiago Sousa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kegcpmiENJwynGX/2Coh81dq3e2EzT9RKh3MqG3GZ+Q=</DigestValue></Reference></SignedInfo><SignatureValue>0liwXkx3YfiFhWUrS4ALE5YtwVwWuwgcaW+ldV4rdjq3MNdIj0K5Cxpf6xKufmZm6LF/lwf3/zv7JyZhdsHBqFY7N+MSGT1w+Lrxkd/YI0qJb4ScIe3Kv8gkUvzAi6DHPrPamRwTEYFcNsHtgK5Iein8zofvITATT7BmrGB2n1U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>05px13lyoG5Afv7BCEEimxeJKTljxjC2wnPJWU0PFHnjTNV74YmpNGCyOGPknEDY1sPkultDbG4luXGV805W5t5vnL07qKfYofVzc0KZYUofTgRmLxwroT9HFrp4+zhJp4XWVBR0MqIRENVoMY+CSK5fmM0f4qjg0u+UKBDAPLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQPCXPOUOqmadGzIQdnd9qJzANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtADgASgBMAEEANgBSADIAXABUAGgAaQBhAGcAbwAgAFMAbwB1AHMAYTAeFw0yNDAzMDMwNDM5MjNaFw0yNTAzMDMxMDM5MjNaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0AOABKAEwAQQA2AFIAMgBcAFQAaABpAGEAZwBvACAAUwBvAHUAcwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTmnHXeXKgbkB+/sEIQSKbF4kpOWPGMLbCc8lZTQ8UeeNM1Xvhiak0YLI4Y+ScQNjWw+S6W0NsbiW5cZXzTlbm3m+cvTuop9ih9XNzQplhSh9OBGYvHCuhP0cWunj7OEmnhdZUFHQyohEQ1Wgxj4JIrl+YzR/iqODS75QoEMA8uQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABIUT87nj5fyV7WW93wJMxNKR56b4YRtH3FJnn+4M1T5B1z6i40SjZKJy6be3rWFp+JFeFHsw+GgyKeiiks4jUmn9IjxsUKUkgfkmyXC3ZFaVpKPEDKYyEDi26jEAaJLJQfWulou2Q9XBx4yTL8l2dgDsyffJucnFrrUzh6NlbUj</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

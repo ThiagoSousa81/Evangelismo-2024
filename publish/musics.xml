@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- O caminho padrão é "C:\Program Files\Evangelismo Pra ser Feliz 2024\musics.xml" -->
+<coletanea>
+  <!-- Adicione mais músicas conforme necessário -->
+  <musica>
+    <titulo>Sorria</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\SORRIA _ CD JOVEM _ MENOS UM.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Pingo de Chuva</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Pingo de Chuva - Vocal Livre (Lyric Video).mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Sonda-me, usa-me</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Sonda-me usa-me-Aline Barros (letra).mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Solta o Cabo da Náu</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Cabo da nau;CD jovens adventista I.A.S.D..mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Eu Sou Feliz</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Eu sou feliz-música CD jovem..mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Você tem valor</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Você tem valor _ Ludmila Ferber [Letras].mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Ele não desiste de você</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Ele não desiste de você - Marquinhos Gomes - Legendado.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Quão Grande é o Meu Deus</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\QUÃO GRANDE É O MEU DEUS _ SORAYA MORAES _ CD JOVEM _ MENOS UM.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>É Adorar</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Amanda Wanessa - É Adorar (COM LETRA).mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Meu Farol</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\MEU FAROL  _ COLETÂNEA JOVEM _ MENOS UM 2018.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>A Alegria está no Coração</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\A ALEGRIA ESTÁ NO CORAÇÃO _ CD JOVEM _ MENOS UM.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Teu Poder</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\TEU PODER _ CD JOVEM _ MENOS UM.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Maranata</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\MARANATA - JOYCE CARNASSALE, MARCEL FREIRE E RIANE JUNQUEIRA.mp4</caminho>
+  </musica>
+  <musica>
+    <titulo>Raridade</titulo>
+    <caminho>C:\Users\User\source\repos\Projeto Evangelismo 2024\publish\Músicas\Anderson Freire - Raridade - COM LETRA VideoLETRA®.mp4</caminho>
+  </musica>
+</coletanea>
